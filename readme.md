@@ -28,3 +28,15 @@ pass the `Home` component as `this.props.children`. This is because `Home` is de
 If we are on `/repos`, then React Router will also render the `App` component, because the
 path to `/repos` is `/` followed by `repos` in our route structure. However this time around,
 `this.props.children` will be set to an instance of the `Repos` component.
+
+## Getting started
+1. Clone this repo and remove the `.git` directory to only keep the files
+2. Go through the code to make sure you understand what is going on. **Ask your teacher
+/ TAs if something is unclear**.
+3. Run `npm install` to load all the libraries from `package.json`. This may be a good time
+to explore all the libraries that we are installing, read their READMEs and ask questions about them.
+4. To start working on your project, run `gulp` from the command line. If you do not have it
+installed, you may need to run `npm install -g gulp` before.
+5. Make changes to your code, and see how browsersync immediately pushes these changes to your browser!
+6. ...
+7. Profit :)
