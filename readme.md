@@ -39,4 +39,4 @@ to explore all the libraries that we are installing, read their READMEs and ask 
 installed, you may need to run `npm install -g gulp` before.
 5. Make changes to your code, and see how browsersync immediately pushes these changes to your browser!
 6. ...
-7. Profit :)
+7. Profit :dollar:
