@@ -7,3 +7,8 @@ html {
 }
 
 @import 'github-user';
+@import 'variables';
+
+body {
+  background-color: $white;
+}
