@@ -1,11 +1,10 @@
 import React from 'react';
+import {Link,History} from 'react-router';
 
 var App = React.createClass({
   render() {
     return (
       <div>
-        <h1>GitHub sample app!</h1>
-        <hr/>
         {this.props.children}
       </div>
     )

@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco);
+
+
 html {
   box-sizing: border-box;
 }
@@ -11,4 +14,10 @@ html {
 
 body {
   background-color: $white;
+}
+
+.blank {
+  color: red;
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 24px;
 }

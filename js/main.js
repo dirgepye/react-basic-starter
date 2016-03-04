@@ -8,6 +8,8 @@ import NotFound from './components/NotFound';
 import Home from './components/Home';
 import Followers from './components/Followers';
 import Repos from './components/Repos';
+import StoryOne from './components/StoryOne';
+import StoryTwo from './components/StoryTwo';
 
 var routes = (
   <Router history={createHistory()}>
@@ -15,6 +17,8 @@ var routes = (
       <IndexRoute component={Home}/>
       <Route path="followers" component={Followers}/>
       <Route path="repos" component={Repos}/>
+      <Route path="storyone" component={StoryOne}/>
+      <Route path="storytwo" component={StoryTwo}/>
       <Route path="*" component={NotFound}/>
     </Route>
   </Router>
